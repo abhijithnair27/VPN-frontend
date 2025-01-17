@@ -1,0 +1,60 @@
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F7FAFC;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Left Section */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .navbar-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Center Section */
+  .navbar-center {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .navbar-link:hover {
+    color: #0073e6;
+  }
+  
+  /* Right Section */
+  .navbar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-icon {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navbar-icon:hover {
+    color: #0073e6;
+  }
+  
