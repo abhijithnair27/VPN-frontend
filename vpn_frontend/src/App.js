@@ -2,6 +2,10 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import RegisterHome from './pages/RegisterHome';
+import ReportFirs from './pages/ReportFirs';
+import ViewFirs from './pages/ViewFirs';
+
+
 import Home from './pages/Home';
 import Registers from './pages/Register';
 import Logins from './pages/Login';
@@ -19,6 +23,10 @@ function App() {
       <Route path="/home" element={<Home />} />
       <Route path="/register" element={<Registers />} />
       <Route path="/login" element={<Logins />} />
+      <Route path="/reportfir" element={<ReportFirs />} />
+      <Route path="/viewfir" element={<ViewFirs />} />
+
+
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />

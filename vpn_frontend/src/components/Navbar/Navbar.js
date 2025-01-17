@@ -13,8 +13,8 @@ const Navbar = () => {
 
       {/* Center Section */}
       <div className="navbar-center">
-        <a href="/police" className="navbar-link">Police Department</a>
-        <a href="/fire" className="navbar-link">Fire Department</a>
+        <Link to="/reportfir" className="navbar-link">Report Fir</Link>
+        <Link to="/viewfir" className="navbar-link">View Fir</Link>
         <a href="/health" className="navbar-link">Public Health</a>
         <a href="/311" className="navbar-link">311</a>
         <a href="/news" className="navbar-link">News</a>
